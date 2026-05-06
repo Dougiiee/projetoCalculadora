@@ -10,10 +10,23 @@ botoes.forEach(function(botao){
 
         if (valor ==='limpar') {
             visor.value = ''
+
         } else if(valor ==='igual') {
+            if(visor.value ==='') return;
+
+            if(/[+\-*/]$/.test(visor.value)) {
+                visor.value = 'Erro'
+                return
+            }
+
+            if(visor.value.includes('/0')) {
+                visor.value = 'Erro'
+                return
+            }
+
             visor.value = eval(visor.value);
         } else {
-            visor.value += valor
+            visor.value += valor;
         }
         
     });
