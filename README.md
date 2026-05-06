@@ -8,7 +8,7 @@ Uma calculadora simples e funcional desenvolvida com HTML, CSS e JavaScript puro
 
 | Operação | Resultado | Erro |
 |----------|-----------|------|
-| ![Operação](cap1.JPG) | ![Resultado](cap2.PNG) | ![Erro](cap3.PNG) |
+| ![Operação](https://imgur.com/a/sc3uN2w) | ![Resultado](https://imgur.com/a/GT0nunW) | ![Erro](https://imgur.com/a/qwqDIzi) |
 
 ---
 
